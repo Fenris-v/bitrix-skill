@@ -60,3 +60,14 @@ if (!function_exists('ulogging')) {
         return true;
     }
 }
+
+if (!function_exists('xmlToArray')) {
+    function xmlToArray(object $xmlObj, array $out = []): array
+    {
+        foreach ((array)$xmlObj as $key => $value) {
+            $out[$key] = is_object($value) ? xmlToArray($value) : $value;
+        }
+
+        return $out;
+    }
+}
