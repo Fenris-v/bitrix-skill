@@ -19,3 +19,7 @@
 /logs/
 /about/
 /phpinfo.php
+/local/html/
+/local/templates/shopselle/fonts/
+/local/templates/shopselle/temp/
+/local/templates/shopselle/images/
