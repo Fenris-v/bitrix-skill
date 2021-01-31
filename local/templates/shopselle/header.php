@@ -128,7 +128,7 @@ require(__DIR__ . '/head.php'); ?>
     </div>
     <div class="wrapper header-nav">
         <div class="container">
-            <a href="#" class="logo" itemprop="url">
+            <a href="/" class="logo" itemprop="url">
                 <img src="<?= SITE_TEMPLATE_PATH ?>/images/logo.png" alt="" itemprop="logo">
                 <meta itemprop="name" content="Shopselle">
                 <meta itemprop="address" content="Москва">

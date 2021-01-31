@@ -1,0 +1,40 @@
+#header .header-nav .cart-icon {
+    min-width: 50px;
+    display: flex;
+    position: static;
+    align-items: center;
+}
+
+#header .header-nav .cart-icon a {
+    display: flex;
+    align-items: center;
+}
+
+#header .header-nav .cart-icon a span {
+    padding: 0;
+}
+
+#header .header-nav .cart-icon:after {
+    position: static;
+    margin: 0 5px;
+}
+
+.cartWrapper {
+    display: flex;
+    align-items: center
+}
+
+#header .header-nav .logo {
+    float: none;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .header-nav nav {
+    width: auto;
+    float: none;
+}

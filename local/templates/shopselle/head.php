@@ -7,6 +7,7 @@
 use Bitrix\Main\Page\Asset;
 
 Asset::getInstance()->addCss(CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH . '/css/application.css'));
+Asset::getInstance()->addCss(CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH . '/css/custom.css'));
 Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/jquery-3.5.1.min.js');
 Asset::getInstance()->addJs(CUtil::GetAdditionalFileURL(SITE_TEMPLATE_PATH . '/js/application.min.js'));
 ?>
